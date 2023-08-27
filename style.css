@@ -1,0 +1,85 @@
+body {
+    background-color: #DCE5EA;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    margin-top: 4vw;
+    width: 350px;
+    height: 480px;
+    background-color: #EBECF0;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px grey;
+    box-sizing: border-box;
+    padding-top:15px;
+}
+#container>div{
+    /* border: 1px solid black; */
+    width: 85%;
+    margin: auto;
+    height: 25%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.box>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unit{
+    height: 40%;
+    font-size: 30px;
+    
+}
+.input_box{
+    height: 60%;
+}
+.value{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 100%;
+    background-color: transparent;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: -5px -5px 10px inset white, 5px 5px 10px inset grey;
+    border: none;
+    border-radius: 8px;
+}
+.value:focus{
+    outline: none;
+}
+#navbar {
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid black; */
+}
+
+#screen {
+    margin: auto;
+    width: 90%;
+    height: 140px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    box-shadow: -5px -5px 10px inset white, 5px 5px 10px inset grey;
+    box-sizing: border-box;
+}
+#screen>div{
+    font-family: 'Sacramento', cursive;
+    overflow: hidden;
+}
+
+#output {
+    margin: auto;
+    /* border-bottom: 1px solid black; */
+    width: 81%;
+    height: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    font-family: sans-serif;
+    font-size: 36px;
+    box-sizing: border-box;
+}
